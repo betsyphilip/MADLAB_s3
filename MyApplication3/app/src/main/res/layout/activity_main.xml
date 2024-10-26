@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Registeration Form"
+        android:textSize="30dp"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="NAME :"
+        android:textSize="30dp"
+        android:layout_marginTop="150dp">
+
+    </TextView>
+    <EditText
+        android:layout_width="250dp"
+        android:id="@+id/e1"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="170dp"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="230dp"
+        android:text="TYPE"
+        android:textSize="30dp"></TextView>
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/s1"></Spinner>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="410dp"
+        android:text="UNIT:"
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="160dp">
+
+    </EditText>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="DATE:"
+        android:textSize="30dp"
+        android:layout_marginTop="480dp"></TextView>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:id="@+id/e3"
+        android:inputType="date"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="160dp"/>
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:text="Submit"
+        android:textSize="30dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/b1"
+        android:onClick="display"></Button>
+
+
+
+
+
+
+
+</RelativeLayout>
